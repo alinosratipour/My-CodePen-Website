@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - improved landing page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+feedback:page was tested in validator.w3.org and there where small error on video section with no heading that has been resolved. css and html commented to ensure readability​.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+  
+   
+
+    <title>Improve your Landing Page</title>
+</head>
+<body>
+  
+    
+    <!--- wrapp the content-->
+<div class="wrapper" id="wrapper">
+   <main>
+       
+    <!--- header-->
+     <header id="header">
+         <div class="logo">
+            <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Saxophone logo" id="header-img"> 
+         </div>
+        
+         <!---Navigation menu-->
+         <nav id="nav-bar">
+             <ul class="lg-ul">
+               <li><a class="nav-link" href="#services">Features</a></li>
+               <li><a class="nav-link" href="#vid">How It Works</a></li>
+               <li><a class="nav-link" href="#price-card">Pricing</a></li> 
+                           
+             </ul>
+         
+         </nav>
+
+          <div class="btn-menu" >
+              <div class="btn-menu-burger"><div></div></div>
+          </div>
+
+          <nav class="sm-nav-bar" >
+            <ul>
+              <li><a class="sm-nav-link"  id="service" href="#services">Features</a></li>
+              <li><a class="sm-nav-link" id="works" href="#vid">How It Works</a></li>
+              <li><a class="sm-nav-link"  id="price" href="#price-card">Pricing</a></li> 
+           
+            </ul>
+
+       </nav>
+     </header>
+                 
+    
+    <!--- background and email section-->
+    <section  class="image-show">
+        <div class="main-heading">
+            
+               <form class="form" action="https://www.freecodecamp.com/email-submit" id="form">
+                    <p class="email" >
+                        <input  id= "email" name="email" type="email" placeholder="Enter your email" required /> 
+                    </p>
+                
+                    <p class="btn-wrap">
+                        <input type="submit" value="Get Started" id="submit" /> 
+                    </p> 
+             </form>
+   
+      <div class="sub-heading">
+            <h1 ><span class="handcroft">Handcrafted</span>,<br/>Homemade Masterpieces</h1> 
+            <a class="external-link" href="https://www.johnpacker.co.uk/shop/brass-instruments/trombone" target="_blank">Our Partner Site</a>
+          </div>
+           
+
+           <!--  <figure class="hold">
+            <img  id="man-image" src="https://images.vexels.com/media/users/3/132040/isolated/preview/1a60aa873a159d61acea05ce03d74488-saxophone-player-silhouette-2-by-vexels.png" alt="">
+            </figure> -->
+
+            </section>  
+
+    <!--- services section-->
+    <div id="service-wrapper">
+   <section id="services">
+        <h2 class="service-heading">Features</h2>
+      <div class="box">
+            <img class="img" src="https://painted-words.com/wp-content/uploads/2014/07/proxy.jpg" alt="Premium Materials"/>
+          <div class="desciption">
+        <h2>Premium Materials</h2>
+            <p>
+             Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+            </p>
+          </div>
+       </div>
+          
+          <div class="box">
+            <img class="img" src="https://previews.123rf.com/images/studioworkstock/studioworkstock1803/studioworkstock180300319/97372313-fast-delivery-banner-commercial-vehicle-.jpg" alt="Fast Shipping"/>
+       
+          <div class="desciption">
+        <h2>Fast Shipping</h2>
+            <p>
+                We make sure you recieve your trombone as soon as we have finished making it.
+                 We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+          <div class="box">
+            <img class="img" src="https://s27389.pcdn.co/wp-content/uploads/2019/09/AdobeStock_271336215.jpeg" alt="Quality Assurance"/>
+       
+          <div class="desciption">
+          <h2>Quality Assurance</h2>
+            <p>
+            For every purchase you make, we will ensure there are no damages 
+            or faults and we will check and test the pitch of your instrument.
+            </p>
+           </div>
+        </div>
+    </section> 
+</div>
+
+    <!--- video section-->
+<section id="vid">
+    <h2>watch the video</h2>
+  <p>You can watch more sample video  <a  class="ext-link" href=https://www.dawkes.co.uk/conn-88h-traditional-wrap-bbf-trombone-trombone/15996 target="_blank">Here</a> </p> 
+     <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"  allowfullscreen></iframe>
+   <div class="video-text"></div>
+       
+</section>
+
+<!-- cards-->
+    <section id="price-card">
+        <div class="card-holder">
+        <div class="product" id="left-card">
+            <div class="card-header">Tenor Trombone</div>
+            <h2>$600</h2>
+            <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+     </div>
+            <div class="product" id="middle-card">
+            <div class="card-header" id="card-header-green">Bass Trombone</div>
+            <h2>$900</h2>
+            <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+            <div class="product" id="right-card">
+                <div class="card-header">Valve Trombone</div>
+                <h2>$1200</h2>
+                <ol>
+                <li>Plays similar to a Trumpet</li>
+                <li>Great for Jazz Bands</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Select</button>
+         </div>
+        </div>
+    </section>
+
+    <!--- footer -->
+
+
+
+
+
+</main>
+<footer>
+    <ul>
+        <li><a class="footer-link"   href="#">Privacy</a></li>
+        <li><a class="footer-link" href="#">Terms</a></li>
+        <li><a class="footer-link" href="#">Contact</a></li>
+        <li><a class="footer-link" target ="_blank"  href="https://www.udemy.com">Personal Interests</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
+</footer>
+
+</div><!--end of wrapper-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
